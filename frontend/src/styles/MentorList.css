@@ -1,0 +1,69 @@
+.list-container {
+    width: 95%;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    overflow-x: auto;
+}
+
+.list-container h2 {
+    margin-top: 0;
+    color: #1e3a8a;
+}
+
+.list-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.list-container th {
+    background: #1e3a8a;
+    color: white;
+    padding: 13px;
+    text-align: left;
+}
+
+.list-container td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.list-container tr:hover {
+    background: #f8fafc;
+}
+
+.edit-btn,
+.delete-btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    color: white;
+}
+
+.edit-btn {
+    background: #f59e0b;
+}
+
+.edit-btn:hover {
+    background: #d97706;
+}
+
+.delete-btn {
+    background: #dc2626;
+}
+
+.delete-btn:hover {
+    background: #b91c1c;
+}
+
+.empty-message {
+    text-align: center;
+    padding: 30px;
+    color: #6b7280;
+    font-size: 16px;
+}

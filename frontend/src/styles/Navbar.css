@@ -1,0 +1,14 @@
+.navbar {
+    width: 100%;
+    background: #1e3a8a;
+    color: white;
+    padding: 18px 40px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
